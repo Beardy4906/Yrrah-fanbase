@@ -43,32 +43,37 @@ body {
     background-image: linear-gradient(to right, #333, #343a40);
 
 }
-.intro{
+
+.intro {
     width: 100%;
     text-align: center;
     Color:var(--light-green);
 }
-.introduction{
+
+.introduction {
     color: var(--dark-green);
     margin: auto;
 }
-.socials{
-    width: 30px;
-    height: 100%;
-    position: fixed;
+
+.socials {
+    width: 7vw;
+    height: auto;
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    left: 0; 
     z-index: 1000;
+    margin: 0 auto;
 }
-.social-link{
+
+.social-link {
     text-decoration: none;
-    
+    margin: 0 auto;
 }
-.social-link img{
+
+.social-link img {
     width: 50px;
 }
-.social-link:visited, .social-link:active, .social-link:hover{
+
+.social-link:visited, .social-link:active, .social-link:hover {
     color: inherit;
 }
