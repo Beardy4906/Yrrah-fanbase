@@ -40,5 +40,35 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: var(--black);
-    background-color: var(--white);
+    background-image: linear-gradient(to right, #333, #343a40);
+
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    Color:var(--light-green);
+}
+.introduction{
+    color: var(--dark-green);
+    margin: auto;
+}
+.socials{
+    width: 30px;
+    height: 100%;
+    position: fixed;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    left: 0; 
+    z-index: 1000;
+}
+.social-link{
+    text-decoration: none;
+    
+}
+.social-link img{
+    width: 50px;
+}
+.social-link:visited, .social-link:active, .social-link:hover{
+    color: inherit;
 }
