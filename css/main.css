@@ -34,6 +34,7 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --yrrah-aqua: #31A8FF;
 }
 
 body {
@@ -51,7 +52,7 @@ body {
 }
 
 .introduction {
-    color: var(--dark-green);
+    color: var(--success);
     margin: auto;
 }
 
